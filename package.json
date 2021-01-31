@@ -1,0 +1,21 @@
+{
+  "name": "platziFood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server public",
+    "dev": "postcss css/tailwind.css -o public/css/style.css --watch",
+    "build": "npx tailwindcss-cli@latest build ./css/tailwind.css -o ./public/css/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Enrique Mejia <enriquemejiacano@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.4",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.2"
+  }
+}
