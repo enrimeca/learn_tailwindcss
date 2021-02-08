@@ -11,7 +11,7 @@
   @apply outline-none;
  }
  .btn {
-   @apply mx-auto block bg-gray-500 px-4 py-2 rounded shadow-xl;
+   @apply block bg-gray-500 px-4 py-2 rounded shadow-xl;
  }
  .btn:hover {
    @apply shadow-none bg-gray-700;
